@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Search by keyword" tests="4" skipped="0" failures="4" errors="0" timestamp="2019-08-25T14:43:55" hostname="pravendras-MacBook-Pro.local" time="43.094">
+  <properties/>
+  <testcase name="Searching for a term" classname="Search by keyword" time="7.857">
+    <failure message="junit.framework.AssertionFailedError" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at basics.stepdefinitions.SearchOnGooglePageStepDefinition.all_result_should_contain_that_word(SearchOnGooglePageStepDefinition.java:62)
+	at ✽.all the search result titles should contain the word &quot;cucumber&quot;(src/test/resources/features/search/search_by_keyword.feature:6)
+</failure>
+  </testcase>
+  <testcase name="Searching for a term" classname="Search by keyword" time="15.421">
+    <failure message="junit.framework.AssertionFailedError" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at basics.stepdefinitions.SearchOnGooglePageStepDefinition.all_result_should_contain_that_word(SearchOnGooglePageStepDefinition.java:62)
+	at ✽.all the search result titles should contain the word &quot;world&quot;(src/test/resources/features/search/search_by_keyword.feature:6)
+</failure>
+  </testcase>
+  <testcase name="Searching for a term" classname="Search by keyword" time="8.08">
+    <failure message="junit.framework.AssertionFailedError" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at basics.stepdefinitions.SearchOnGooglePageStepDefinition.all_result_should_contain_that_word(SearchOnGooglePageStepDefinition.java:62)
+	at ✽.all the search result titles should contain the word &quot;America&quot;(src/test/resources/features/search/search_by_keyword.feature:6)
+</failure>
+  </testcase>
+  <testcase name="Searching for a term" classname="Search by keyword" time="11.726">
+    <failure message="junit.framework.AssertionFailedError" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at basics.stepdefinitions.SearchOnGooglePageStepDefinition.all_result_should_contain_that_word(SearchOnGooglePageStepDefinition.java:62)
+	at ✽.all the search result titles should contain the word &quot;India&quot;(src/test/resources/features/search/search_by_keyword.feature:6)
+</failure>
+  </testcase>
+  <system-out><![CDATA[20:13:55.489 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.user_on_google_home_page - Open the Google home page
+20:13:55.725 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+20:13:55.725 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--incognito, goog:chromeOptions: {args: [--start-maximized, --incognito, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+20:13:59.093 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+20:13:59.093 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+20:13:59.566 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/22cf193d049a6c37d79b6824d6fc5db3ce71fcf91996f74d6cc776d01cf2df2a.png
+20:13:59.566 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Open the Google home page
+20:13:59.566 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1860268123878145881
+20:13:59.567 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/22cf193d049a6c37d79b6824d6fc5db3ce71fcf91996f74d6cc776d01cf2df2a.png
+    ?[32mGiven ?[0m?[32mUser is on ?[0m?[32m?[1mGoogle.com?[0m?[32m page?[0m                                     ?[90m# SearchOnGooglePageStepDefinition.user_on_google_home_page(String)?[0m
+20:13:59.574 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.he_search_for_given_term - Search for term {0}
+20:14:01.740 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/76e9391e15f2257f4251f58929fde8c373db9201a733062c2db861a7e4ade957.png
+20:14:01.740 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-35480274645630075
+20:14:01.740 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/76e9391e15f2257f4251f58929fde8c373db9201a733062c2db861a7e4ade957.png
+20:14:01.740 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Search for term {0}
+    ?[32mWhen ?[0m?[32mhe searches for "?[0m?[32m?[1mcucumber?[0m?[32m"?[0m                                      ?[90m# SearchOnGooglePageStepDefinition.he_search_for_given_term(String)?[0m
+cucumbers: health benefits, nutritional content, and uses
+
+
+
+
+7 health benefits of eating cucumber - healthline
+cucumber
+cucumber - wikipedia
+cucumbers: health benefits, nutritional content, and uses
+cucumbers: health benefits & nutrition facts | live science
+cucumbers - the world's healthiest foods
+cucumber testing tutorials for beginners - guru99
+what is cucumber testing tool? complete introduction - guru99
+cucumber/cucumber: cucumber monorepo - building blocks ... - github
+5 wonderful benefits of cucumber | organic facts
+tomatoes
+carrot
+aubergines
+onions
+
+cucumber (software)
+20:14:03.150 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/76e9391e15f2257f4251f58929fde8c373db9201a733062c2db861a7e4ade957.png
+    ?[31mThen ?[0m?[31mall the search result titles should contain the word "?[0m?[31m?[1mcucumber?[0m?[31m"?[0m ?[90m# SearchOnGooglePageStepDefinition.all_result_should_contain_that_word(String)?[0m
+      ?[31mjunit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at basics.stepdefinitions.SearchOnGooglePageStepDefinition.all_result_should_contain_that_word(SearchOnGooglePageStepDefinition.java:62)
+	at ✽.all the search result titles should contain the word "cucumber"(src/test/resources/features/search/search_by_keyword.feature:6)
+?[0m
+20:14:03.315 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Searching for a term
+--------------------------------------------------------------------------
+20:14:03.315 [Test worker] DEBUG net.thucydides.core.steps.ConsoleLoggingListener - RELATED ISSUES: 
+20:14:03.315 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then all the search result titles should contain the word "cucumber"
+20:14:03.315 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+20:14:03.342 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.user_on_google_home_page - Open the Google home page
+20:14:03.540 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+20:14:03.540 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--incognito, goog:chromeOptions: {args: [--start-maximized, --incognito, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+20:14:14.949 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/22cf193d049a6c37d79b6824d6fc5db3ce71fcf91996f74d6cc776d01cf2df2a.png
+20:14:14.949 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Open the Google home page
+    ?[32mGiven ?[0m?[32mUser is on ?[0m?[32m?[1mGoogle.com?[0m?[32m page?[0m                                  ?[90m# SearchOnGooglePageStepDefinition.user_on_google_home_page(String)?[0m
+20:14:14.956 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.he_search_for_given_term - Search for term {0}
+20:14:17.116 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/64585b1b87edd5fff17f52e7c78c086e4296dfcfa2e9bafc693086fe8bb2fec7.png
+20:14:17.116 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5603608192305780507
+20:14:17.116 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Search for term {0}
+20:14:17.116 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/64585b1b87edd5fff17f52e7c78c086e4296dfcfa2e9bafc693086fe8bb2fec7.png
+    ?[32mWhen ?[0m?[32mhe searches for "?[0m?[32m?[1mworld?[0m?[32m"?[0m                                      ?[90m# SearchOnGooglePageStepDefinition.he_search_for_given_term(String)?[0m
+world - wikipedia
+world - msn.com
+world news, latest and breaking world news, top international news ...
+world news | latest world news, international news ... - ndtv.com
+world | fox news
+
+
+
+world - bbc news
+world news - latest breaking news from around the world | metro uk
+world news headlines, latest international news, world breaking ...
+world news – breaking news, videos and headlines - cnn - cnn.com
+cnn
+bbc world service
+reuters
+united press international
+international news service
+cnbc world
+msnbc
+nbc news
+aol
+politico
+pew research center
+associated press
+bbc
+20:14:18.576 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/64585b1b87edd5fff17f52e7c78c086e4296dfcfa2e9bafc693086fe8bb2fec7.png
+    ?[31mThen ?[0m?[31mall the search result titles should contain the word "?[0m?[31m?[1mworld?[0m?[31m"?[0m ?[90m# SearchOnGooglePageStepDefinition.all_result_should_contain_that_word(String)?[0m
+      ?[31mjunit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at basics.stepdefinitions.SearchOnGooglePageStepDefinition.all_result_should_contain_that_word(SearchOnGooglePageStepDefinition.java:62)
+	at ✽.all the search result titles should contain the word "world"(src/test/resources/features/search/search_by_keyword.feature:6)
+?[0m
+20:14:18.760 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.user_on_google_home_page - Open the Google home page
+20:14:18.962 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+20:14:18.963 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--incognito, goog:chromeOptions: {args: [--start-maximized, --incognito, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+20:14:21.251 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/22cf193d049a6c37d79b6824d6fc5db3ce71fcf91996f74d6cc776d01cf2df2a.png
+20:14:21.251 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Open the Google home page
+    ?[32mGiven ?[0m?[32mUser is on ?[0m?[32m?[1mGoogle.com?[0m?[32m page?[0m                                    ?[90m# SearchOnGooglePageStepDefinition.user_on_google_home_page(String)?[0m
+20:14:21.258 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.he_search_for_given_term - Search for term {0}
+20:14:24.288 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/a670bea202e53c3c6d4c4d93c51745b01ca4cf8ae5ec3841ada9ec792ca30399.png
+20:14:24.288 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3805177067056065941
+20:14:24.288 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Search for term {0}
+20:14:24.288 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/a670bea202e53c3c6d4c4d93c51745b01ca4cf8ae5ec3841ada9ec792ca30399.png
+    ?[32mWhen ?[0m?[32mhe searches for "?[0m?[32m?[1mAmerica?[0m?[32m"?[0m                                      ?[90m# SearchOnGooglePageStepDefinition.he_search_for_given_term(String)?[0m
+united states - wikipedia
+americas - wikipedia
+america | official website featuring gerry beckley and dewey ...
+
+
+
+
+america magazine | the jesuit review
+welcome to green america | www.greenamerica.org
+america revere - youtube
+americas - the new york times
+americas | news | the independent
+china
+russia
+canada
+australia
+japan
+mexico
+south korea
+iran
+united kingdom
+venezuela
+india
+brazil
+turkey
+syria
+germany
+italy
+france
+canada
+japan
+united kingdom
+grand canyon national...
+new york
+los angeles
+las vegas
+
+russia
+iran
+china
+canada
+
+americas
+america (rock band)
+songs: a horse with no name, ventura highway
+albums: america, homecoming, the last unicorn, america live
+america (magazine)
+20:14:26.618 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/a670bea202e53c3c6d4c4d93c51745b01ca4cf8ae5ec3841ada9ec792ca30399.png
+    ?[31mThen ?[0m?[31mall the search result titles should contain the word "?[0m?[31m?[1mAmerica?[0m?[31m"?[0m ?[90m# SearchOnGooglePageStepDefinition.all_result_should_contain_that_word(String)?[0m
+      ?[31mjunit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at basics.stepdefinitions.SearchOnGooglePageStepDefinition.all_result_should_contain_that_word(SearchOnGooglePageStepDefinition.java:62)
+	at ✽.all the search result titles should contain the word "America"(src/test/resources/features/search/search_by_keyword.feature:6)
+?[0m
+20:14:26.847 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.user_on_google_home_page - Open the Google home page
+20:14:27.046 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+20:14:27.047 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--incognito, goog:chromeOptions: {args: [--start-maximized, --incognito, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+20:14:33.482 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/22cf193d049a6c37d79b6824d6fc5db3ce71fcf91996f74d6cc776d01cf2df2a.png
+20:14:33.483 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Open the Google home page
+    ?[32mGiven ?[0m?[32mUser is on ?[0m?[32m?[1mGoogle.com?[0m?[32m page?[0m                                  ?[90m# SearchOnGooglePageStepDefinition.user_on_google_home_page(String)?[0m
+20:14:33.488 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.he_search_for_given_term - Search for term {0}
+20:14:36.412 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/cac33b97fb7cf3bbc4473588761bbf53cfd1eb4b10fd7358e37fc50aae9a8698.png
+20:14:36.412 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4897809373538109154
+20:14:36.412 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/cac33b97fb7cf3bbc4473588761bbf53cfd1eb4b10fd7358e37fc50aae9a8698.png
+20:14:36.412 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Search for term {0}
+    ?[32mWhen ?[0m?[32mhe searches for "?[0m?[32m?[1mIndia?[0m?[32m"?[0m                                      ?[90m# SearchOnGooglePageStepDefinition.he_search_for_given_term(String)?[0m
+india - wikipedia
+incredible india | english
+india | facts, culture, history, economy, & geography | britannica.com
+
+
+
+
+national portal of india
+india | world | the guardian
+india - wikitravel
+india news - top stories from al jazeera
+india - bbc news
+india vs west indies live score, 1st test day 4 in antigua: india's lead ...
+china
+pakistan
+japan
+nepal
+sri lanka
+south korea
+bangladesh
+united states
+iran
+brazil
+turkey
+mexico
+united kingdom
+syria
+west bengal
+se railway office
+s e railways
+pakistan
+kerala
+jammu and kas...
+china
+
+india national cricket team
+20:14:38.374 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/cac33b97fb7cf3bbc4473588761bbf53cfd1eb4b10fd7358e37fc50aae9a8698.png
+    ?[31mThen ?[0m?[31mall the search result titles should contain the word "?[0m?[31m?[1mIndia?[0m?[31m"?[0m ?[90m# SearchOnGooglePageStepDefinition.all_result_should_contain_that_word(String)?[0m
+      ?[31mjunit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at basics.stepdefinitions.SearchOnGooglePageStepDefinition.all_result_should_contain_that_word(SearchOnGooglePageStepDefinition.java:62)
+	at ✽.all the search result titles should contain the word "India"(src/test/resources/features/search/search_by_keyword.feature:6)
+?[0m
+]]></system-out>
+  <system-err><![CDATA[Aug 25, 2019 8:13:55 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 4409
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Aug 25, 2019 8:13:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 25, 2019 8:14:03 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 21740
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Aug 25, 2019 8:14:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 25, 2019 8:14:18 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 47166
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Aug 25, 2019 8:14:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 25, 2019 8:14:26 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 38781
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Aug 25, 2019 8:14:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

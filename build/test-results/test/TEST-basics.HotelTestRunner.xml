@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basics.HotelTestRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="pravendras-MacBook-Pro.local" time="0.0">
+  <properties/>
+  <system-out><![CDATA[20:14:39.827 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@e61b85bf
+20:14:39.828 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Search by Hotel
+20:14:39.830 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: Searching for Hotel on Hotel.com
+-------------------------------------------------------------------(search-by-hotel;searching-for-hotel-on-hotel.com)
+Feature: Search by Hotel
+
+  Scenario Outline: Searching for Hotel on Hotel.com ?[90m# src/test/resources/features/search/hotel_search.feature:4?[0m
+    ?[36mGiven User is on Hotel.com page?[0m
+    ?[36mWhen he enters "<location>" into location?[0m
+    ?[36mAnd he enters "<checkin_date>" into checkin?[0m
+    ?[36mAnd he enters "<checkout_date>" into checkout?[0m
+    ?[36mAnd clicks on search button?[0m
+    ?[36mThen he should find given "<location>" on result page?[0m
+
+    Examples: 
+
+  Scenario Outline: Searching for Hotel on Hotel.com     ?[90m# src/test/resources/features/search/hotel_search.feature:13?[0m
+20:15:13.625 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+20:15:13.627 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+20:15:13.627 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@431fd6ab
+20:15:13.628 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Search by Hotel:Searching for Hotel on Hotel.com
+20:15:13.628 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@431fd6ab: Generating report for test outcome: Search by Hotel:Searching for Hotel on Hotel.com
+20:15:13.628 [pool-3-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Searching for Hotel on Hotel.com to file /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/da00db605121a9b388f72ac86d1402583c324870792a1e576fa88b11f58f416c.json (using temp file /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/da00db605121a9b388f72ac86d1402583c324870792a1e576fa88b11f58f416c.jsonfcefc7be-27e0-4ef7-8550-cefa341848e7)
+20:15:13.633 [pool-3-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Search by Hotel:Searching for Hotel on Hotel.com done
+20:15:13.633 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+20:15:13.633 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 5 ms
+20:15:13.633 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@4fb8994
+20:15:13.634 [pool-4-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Search by Hotel:Searching for Hotel on Hotel.com
+20:15:13.634 [pool-4-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@4fb8994: Generating report for test outcome: Search by Hotel:Searching for Hotel on Hotel.com
+20:15:13.634 [pool-4-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR Searching for Hotel on Hotel.com in da00db605121a9b388f72ac86d1402583c324870792a1e576fa88b11f58f416c
+20:15:13.636 [pool-4-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Searching for Hotel on Hotel.com-[]: Optional[Requirement{name='Search by Hotel', type='feature' parent = 'Search', cardNumber='null'}]
+20:15:13.637 [pool-4-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Searching for Hotel on Hotel.com-[]: Optional[Requirement{name='Search by Hotel', type='feature' parent = 'Search', cardNumber='null'}]
+20:15:13.642 [pool-4-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Searching for Hotel on Hotel.com-[]: Optional[Requirement{name='Search by Hotel', type='feature' parent = 'Search', cardNumber='null'}]
+20:15:13.643 [pool-4-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome Searching for Hotel on Hotel.com-[]: Optional[Requirement{name='Search by Hotel', type='feature' parent = 'Search', cardNumber='null'}]
+20:15:13.644 [pool-4-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in da00db605121a9b388f72ac86d1402583c324870792a1e576fa88b11f58f416c_screenshots.html
+20:15:13.658 [pool-4-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report da00db605121a9b388f72ac86d1402583c324870792a1e576fa88b11f58f416c_screenshots.html in 14 ms
+20:15:13.659 [pool-4-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Search by Hotel:Searching for Hotel on Hotel.com in da00db605121a9b388f72ac86d1402583c324870792a1e576fa88b11f58f416c.html in directory /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity  
+20:15:13.659 [pool-4-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in da00db605121a9b388f72ac86d1402583c324870792a1e576fa88b11f58f416c.html
+20:15:13.747 [pool-4-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report da00db605121a9b388f72ac86d1402583c324870792a1e576fa88b11f58f416c.html in 88 ms
+20:15:13.747 [pool-4-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Search by Hotel:Searching for Hotel on Hotel.com done
+20:15:13.747 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+20:15:13.747 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 114 ms
+20:15:13.750 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+20:15:13.750 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+
+?[31mFailed scenarios:?[0m
+?[31msrc/test/resources/features/search/hotel_search.feature:13 ?[0m# Searching for Hotel on Hotel.com
+
+1 Scenarios (?[31m1 failed?[0m)
+6 Steps (?[31m1 failed?[0m, ?[32m5 passed?[0m)
+0m33.800s
+
+junit.framework.ComparisonFailure: expected:<New[ Delhi]> but was:<New[ark, Delaware, United States of America]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at basics.stepdefinitions.SearchOnGooglePageStepDefinition.find_location_on_result_page(SearchOnGooglePageStepDefinition.java:69)
+	at ✽.he should find given "New Delhi" on result page(src/test/resources/features/search/hotel_search.feature:10)
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

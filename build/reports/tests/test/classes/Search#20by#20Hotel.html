@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Search by Hotel</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Search by Hotel</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Search by Hotel</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">2</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1m14.52s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Searching for Hotel on Hotel.com"></a>
+<h3 class="failures">Searching for Hotel on Hotel.com</h3>
+<span class="code">
+<pre>junit.framework.ComparisonFailure: expected:&lt;New Delhi[]&gt; but was:&lt;New Delhi[, India]&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at basics.stepdefinitions.SearchOnGooglePageStepDefinition.find_location_on_result_page(SearchOnGooglePageStepDefinition.java:69)
+	at ✽.he should find given &quot;New Delhi&quot; on result page(src/test/resources/features/search/hotel_search.feature:10)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Searching for Hotel on Hotel.com"></a>
+<h3 class="failures">Searching for Hotel on Hotel.com</h3>
+<span class="code">
+<pre>junit.framework.ComparisonFailure: expected:&lt;New[ Delhi]&gt; but was:&lt;New[ark, Delaware, United States of America]&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at basics.stepdefinitions.SearchOnGooglePageStepDefinition.find_location_on_result_page(SearchOnGooglePageStepDefinition.java:69)
+	at ✽.he should find given &quot;New Delhi&quot; on result page(src/test/resources/features/search/hotel_search.feature:10)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Searching for Hotel on Hotel.com</td>
+<td class="failures">40.734s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Searching for Hotel on Hotel.com</td>
+<td class="failures">33.790s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>20:13:15.194 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.user_on_google_home_page - Open the Hotel.com home page
+20:13:15.690 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+20:13:15.690 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--incognito, goog:chromeOptions: {args: [--start-maximized, --incognito, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+20:13:23.145 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+20:13:23.146 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+20:13:25.217 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/64ba5572f3c7c444b131514b4cb2f6150a20e87bf83eb66d983a651d78dc3e5a.png
+20:13:25.220 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Open the Hotel.com home page
+    ?[32mGiven ?[0m?[32mUser is on ?[0m?[32m?[1mHotel.com?[0m?[32m page?[0m                      ?[90m# SearchOnGooglePageStepDefinition.user_on_google_home_page(String)?[0m
+20:13:25.235 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.he_enters_for_given_keyword - Type Location {0}
+20:13:32.462 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/5a56e7535b9d4c3a76e794be79bc1471e1cc78c87c64dbbfab743a15e75eb848.png
+20:13:32.463 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Type Location {0}
+20:13:32.463 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4521239572060947101
+20:13:32.463 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/5a56e7535b9d4c3a76e794be79bc1471e1cc78c87c64dbbfab743a15e75eb848.png
+    ?[32mWhen ?[0m?[32mhe enters &quot;?[0m?[32m?[1mNew Delhi?[0m?[32m&quot; into ?[0m?[32m?[1mlocation?[0m             ?[90m# SearchOnGooglePageStepDefinition.he_enters_for_given_keyword(String,String)?[0m
+20:13:32.471 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.he_enters_for_given_keyword - Type Checkin Date {0}
+20:13:33.984 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/7765fab419807bc57a8a95d3122669dd20d7e452dfd4405979c8cb8029817c15.png
+20:13:33.985 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3384052996941840575
+20:13:33.985 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Type Checkin Date {0}
+20:13:33.985 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/7765fab419807bc57a8a95d3122669dd20d7e452dfd4405979c8cb8029817c15.png
+    ?[32mAnd ?[0m?[32mhe enters &quot;?[0m?[32m?[1m31/08/2019?[0m?[32m&quot; into ?[0m?[32m?[1mcheckin?[0m              ?[90m# SearchOnGooglePageStepDefinition.he_enters_for_given_keyword(String,String)?[0m
+20:13:33.991 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.he_enters_for_given_keyword - Type Checkout Date {0}
+20:13:35.731 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/9eb9c7ab3a39f06c9e5cfcbd1c82109481c3f74fea9cdbcffe3d5c2ed777c662.png
+20:13:35.732 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Type Checkout Date {0}
+20:13:35.732 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1905369942273710198
+20:13:35.732 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/9eb9c7ab3a39f06c9e5cfcbd1c82109481c3f74fea9cdbcffe3d5c2ed777c662.png
+    ?[32mAnd ?[0m?[32mhe enters &quot;?[0m?[32m?[1m02/09/2019?[0m?[32m&quot; into ?[0m?[32m?[1mcheckout?[0m             ?[90m# SearchOnGooglePageStepDefinition.he_enters_for_given_keyword(String,String)?[0m
+20:13:35.738 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.he_click_on_search_button - Click On Search
+20:13:54.655 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/984a24a5e3d92a0e914c2f4c3cd4e87c8a1fbf9ffc41534937638a07f602c628.png
+20:13:54.656 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1011256752740913447
+20:13:54.656 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Click On Search
+20:13:54.656 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/984a24a5e3d92a0e914c2f4c3cd4e87c8a1fbf9ffc41534937638a07f602c628.png
+    ?[32mAnd ?[0m?[32mclicks on search button?[0m                          ?[90m# SearchOnGooglePageStepDefinition.he_click_on_search_button()?[0m
+20:13:54.663 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.find_location_on_result_page - Get location from result
+20:13:54.704 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Get location from result
+20:13:55.180 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/984a24a5e3d92a0e914c2f4c3cd4e87c8a1fbf9ffc41534937638a07f602c628.png
+    ?[31mThen ?[0m?[31mhe should find given &quot;?[0m?[31m?[1mNew Delhi?[0m?[31m&quot; on result page?[0m ?[90m# SearchOnGooglePageStepDefinition.find_location_on_result_page(String)?[0m
+      ?[31mjunit.framework.ComparisonFailure: expected:&lt;New Delhi[]&gt; but was:&lt;New Delhi[, India]&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at basics.stepdefinitions.SearchOnGooglePageStepDefinition.find_location_on_result_page(SearchOnGooglePageStepDefinition.java:69)
+	at ✽.he should find given &quot;New Delhi&quot; on result page(src/test/resources/features/search/hotel_search.feature:10)
+?[0m
+20:13:55.361 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Searching for Hotel on Hotel.com
+--------------------------------------------------------------------------
+20:13:55.364 [Test worker] DEBUG net.thucydides.core.steps.ConsoleLoggingListener - RELATED ISSUES: 
+20:13:55.443 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then he should find given &quot;New Delhi&quot; on result page
+20:13:55.443 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - expected:&lt;New Delhi[]&gt; but was:&lt;New Delhi[, India]&gt;
+20:14:39.853 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.user_on_google_home_page - Open the Hotel.com home page
+20:14:40.070 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+20:14:40.070 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--incognito, goog:chromeOptions: {args: [--start-maximized, --incognito, --enable-automation, --test-type], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+20:14:46.938 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+20:14:46.939 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+20:14:48.440 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/1d9e43ba69ab333270aca3ea3e587e5685524ad3f626043de84194fe0c9c9ae1.png
+20:14:48.440 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Open the Hotel.com home page
+20:14:48.440 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-9155671667066907818
+20:14:48.441 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/1d9e43ba69ab333270aca3ea3e587e5685524ad3f626043de84194fe0c9c9ae1.png
+    ?[32mGiven ?[0m?[32mUser is on ?[0m?[32m?[1mHotel.com?[0m?[32m page?[0m                      ?[90m# SearchOnGooglePageStepDefinition.user_on_google_home_page(String)?[0m
+20:14:48.448 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.he_enters_for_given_keyword - Type Location {0}
+20:14:55.506 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/ffda5a48a4977ace0297a4cc788f8ef6ee03025ac3c4149f643c55264529f09e.png
+20:14:55.507 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Type Location {0}
+20:14:55.507 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7825032708943883938
+20:14:55.507 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/ffda5a48a4977ace0297a4cc788f8ef6ee03025ac3c4149f643c55264529f09e.png
+    ?[32mWhen ?[0m?[32mhe enters &quot;?[0m?[32m?[1mNew Delhi?[0m?[32m&quot; into ?[0m?[32m?[1mlocation?[0m             ?[90m# SearchOnGooglePageStepDefinition.he_enters_for_given_keyword(String,String)?[0m
+20:14:55.513 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.he_enters_for_given_keyword - Type Checkin Date {0}
+20:14:57.042 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/c2c50f984e92a5f489948cf6e4e4a4ff3bc54de128a4cdd8b3db7602825c95f0.png
+20:14:57.042 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1797447145114995651
+20:14:57.042 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Type Checkin Date {0}
+20:14:57.042 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/c2c50f984e92a5f489948cf6e4e4a4ff3bc54de128a4cdd8b3db7602825c95f0.png
+    ?[32mAnd ?[0m?[32mhe enters &quot;?[0m?[32m?[1m31/08/2019?[0m?[32m&quot; into ?[0m?[32m?[1mcheckin?[0m              ?[90m# SearchOnGooglePageStepDefinition.he_enters_for_given_keyword(String,String)?[0m
+20:14:57.048 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.he_enters_for_given_keyword - Type Checkout Date {0}
+20:14:58.766 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/283f7b4573bc454335ee0b52f6c47e360e8bed8c230f742037d934c2ed3b0f4b.png
+20:14:58.766 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6527615818440258197
+20:14:58.766 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/283f7b4573bc454335ee0b52f6c47e360e8bed8c230f742037d934c2ed3b0f4b.png
+20:14:58.766 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Type Checkout Date {0}
+    ?[32mAnd ?[0m?[32mhe enters &quot;?[0m?[32m?[1m02/09/2019?[0m?[32m&quot; into ?[0m?[32m?[1mcheckout?[0m             ?[90m# SearchOnGooglePageStepDefinition.he_enters_for_given_keyword(String,String)?[0m
+20:14:58.772 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.he_click_on_search_button - Click On Search
+20:15:12.956 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/b55d30cf525ddcc63183d2494a424b31e041cf2ad3e5e36d7789eb2e80751788.png
+20:15:12.956 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6485211589179433381
+20:15:12.956 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Click On Search
+20:15:12.956 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/b55d30cf525ddcc63183d2494a424b31e041cf2ad3e5e36d7789eb2e80751788.png
+    ?[32mAnd ?[0m?[32mclicks on search button?[0m                          ?[90m# SearchOnGooglePageStepDefinition.he_click_on_search_button()?[0m
+20:15:12.962 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: SearchOnGooglePageStepDefinition.find_location_on_result_page - Get location from result
+20:15:13.468 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for /Users/pravendrachauhan/eclipse-workspace/Mohammad_Serenity_Java/target/site/serenity/b55d30cf525ddcc63183d2494a424b31e041cf2ad3e5e36d7789eb2e80751788.png
+20:15:13.469 [Test worker] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: Get location from result
+    ?[31mThen ?[0m?[31mhe should find given &quot;?[0m?[31m?[1mNew Delhi?[0m?[31m&quot; on result page?[0m ?[90m# SearchOnGooglePageStepDefinition.find_location_on_result_page(String)?[0m
+      ?[31mjunit.framework.ComparisonFailure: expected:&lt;New[ Delhi]&gt; but was:&lt;New[ark, Delaware, United States of America]&gt;
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at basics.stepdefinitions.SearchOnGooglePageStepDefinition.find_location_on_result_page(SearchOnGooglePageStepDefinition.java:69)
+	at ✽.he should find given &quot;New Delhi&quot; on result page(src/test/resources/features/search/hotel_search.feature:10)
+?[0m
+20:15:13.622 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Searching for Hotel on Hotel.com
+--------------------------------------------------------------------------
+20:15:13.623 [Test worker] DEBUG net.thucydides.core.steps.ConsoleLoggingListener - RELATED ISSUES: 
+20:15:13.623 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Then he should find given &quot;New Delhi&quot; on result page
+20:15:13.623 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - expected:&lt;New[ Delhi]&gt; but was:&lt;New[ark, Delaware, United States of America]&gt;
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Aug 25, 2019 8:13:15 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 48300
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Aug 25, 2019 8:13:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 25, 2019 8:14:39 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024}) on port 26275
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Aug 25, 2019 8:14:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6</a> at Aug 25, 2019 8:15:14 PM</p>
+</div>
+</div>
+</body>
+</html>
